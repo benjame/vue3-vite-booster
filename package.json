@@ -1,7 +1,7 @@
 {
-  "name": "vitecamp",
+  "name": "sms-web",
   "version": "0.0.0",
-  "author": "菜猫子neko",
+  "author": "yuzhen",
   "packageManager": "pnpm@7.9.0",
   "license": "MIT",
   "scripts": {
@@ -14,11 +14,15 @@
   "dependencies": {
     "@vueuse/core": "^8.9.2",
     "axios": "^0.25.0",
+    "echarts": "^5.3.3",
     "element-plus": "^2.0.1",
+    "js-cookie": "^3.0.1",
+    "jsencrypt": "^3.2.1",
     "nprogress": "^0.2.0",
     "pinia": "^2.0.16",
     "prism-theme-vars": "^0.2.4",
     "vue": "^3.2.25",
+    "vue-cropper": "^0.5.8",
     "vue-i18n": "^9.1.9",
     "vue-router": "^4.1.2"
   },
@@ -55,6 +59,7 @@
     "vite-plugin-fonts": "^0.6.0",
     "vite-plugin-vue-markdown": "^0.21.1",
     "vite-plugin-windicss": "^1.8.7",
+    "vite-plugin-compression": "^0.5.1",
     "vite-svg-loader": "^3.4.0",
     "vue-tsc": "^0.38.4"
   },
